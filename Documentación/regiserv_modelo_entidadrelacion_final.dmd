@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="regiserv_modelo_entidadrelacion" id="421F5846-86DA-2AF7-0B05-595B7794249E" version="3.5">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:10:47 UTC</createdTime>
+<ownerDesignName>regiserv_modelo_entidadrelacion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>421F5846-86DA-2AF7-0B05-595B7794249E</designId>
+</OSDM_Design>
