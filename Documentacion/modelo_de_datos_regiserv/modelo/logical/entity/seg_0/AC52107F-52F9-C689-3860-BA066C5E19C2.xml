@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC52107F-52F9-C689-3860-BA066C5E19C2" name="Usuario">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:10:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="E471CABA-5B8A-1956-055B-77C35801A0A4">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:11:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="084A7CBB-0E93-7F78-12AF-64106E817B98">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:11:25 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="EC4279F3-E163-1348-8E50-438E3CB3366D">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:11:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="D851E557-1DA9-73FD-0A4F-8F6203FA3EA0">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:11:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="88A638AB-CB62-632C-F203-D4745953EB61">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:11:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rol" id="92905E54-25AA-1E0D-2D54-1744C5063771">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:28:00 UTC</createdTime>
+<generatorID>1CC788F6-A317-3806-DCA7-9E6C15CA4118</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<referedAttribute>223C148D-BFEF-EC87-39A1-CC0F91DA927C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zona" id="CD21F28A-B3B4-11A5-6B13-F4E8102FB259">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-24 11:28:46 UTC</createdTime>
+<generatorID>8474624F-35B9-B8F0-1AE3-DAEBB9C2417A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0865DE37-6236-1AC6-66CF-4E0D84DEBE12</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1A97143-AB2F-1ECC-1AF1-201E6F447922" name="Usuario PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:11:16 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E471CABA-5B8A-1956-055B-77C35801A0A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

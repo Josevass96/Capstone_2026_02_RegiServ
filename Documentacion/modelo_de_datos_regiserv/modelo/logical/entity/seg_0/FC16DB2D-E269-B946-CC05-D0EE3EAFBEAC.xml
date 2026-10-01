@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC16DB2D-E269-B946-CC05-D0EE3EAFBEAC" name="Registro_aseo">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:16:24 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_registro" id="13DE4408-48B5-E920-0E2F-00DD71094443">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:16:50 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_registro" id="896D1FA2-1D0B-B19A-12DE-277F242B66BF">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:17:16 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_inicio" id="BC77B136-6EEA-AF74-1D47-674625D52FE2">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:17:28 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_fin" id="25C5E805-139D-1FE6-8C0D-50CFBF28447E">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:17:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacion_general" id="58850BCE-2385-C040-9297-D024D1BDA737">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:17:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitud" id="FAA1FC92-F8ED-0B2A-670D-B7C4EDE7A221">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:18:01 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitud" id="0BB4CE6A-15D5-B17C-63A4-24335CECCA95">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:18:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origen_registro" id="A291FFC3-E9FE-D277-07B8-61BC2B02502B">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:18:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_sincronizacion" id="F9409EC7-A1FF-5EDE-2A69-D622704F2FCE">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:18:21 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_sincronizacion" id="AC191A6F-3FA4-42DB-BA6A-58377464A2D8">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:18:27 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="5AD5866C-8261-0848-BC8A-018F7A8D27F7">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:29:30 UTC</createdTime>
+<generatorID>73010329-BF62-9C93-B889-530170C01D64</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<referedAttribute>E471CABA-5B8A-1956-055B-77C35801A0A4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_aseo" id="C770DA8F-86A4-A726-E433-636433ED26D7">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:33:55 UTC</createdTime>
+<generatorID>F87DC585-2AB2-C0D1-3F92-8489064E5149</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A4E15065-442D-D436-6129-41845A41A7C8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="312B15B7-54C8-F4A6-19E9-0946F141502F" name="Registro_aseo PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:17:15 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13DE4408-48B5-E920-0E2F-00DD71094443</attributeRef>
+<attributeRef>5AD5866C-8261-0848-BC8A-018F7A8D27F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53E6C150-F3CE-D33E-8BD7-EAEE71B2F07E" name="Tipo_observacion">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:21:21 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_observacion" id="2A5F4211-6B9B-E04C-51B3-648432640DDF">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:22:02 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="537F2F73-0E4A-1B67-0697-F8697CD979CB">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:22:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="CC4C1F35-04EB-BCFA-93B4-08A06EA9D16F">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:22:26 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="0525A436-76D2-0B2F-A740-08BBEF749D67">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:22:30 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE0107F2-6B8E-0334-E2AE-7D37338B2357" name="Tipo_observacion PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:21:58 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A5F4211-6B9B-E04C-51B3-648432640DDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

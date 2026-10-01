@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E67D71B7-0A2E-5167-42BF-A4FE1C5FB8AE" name="NFC">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:14:52 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nfc" id="B9092842-CC8C-5BB2-4673-CDE26A84AA66">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:15:03 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uid_nfc" id="3B451D65-D1D2-D05B-9136-FBC2A58F8A65">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:15:11 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="0A228872-9972-C43C-9321-8AA2A4C239B6">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:15:23 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_instalacion" id="8129E0F0-65EF-8547-BFC6-CCE973A307C8">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:15:32 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="C64C3D1E-C6FA-7C09-260F-6F4D4BBFA6BD">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:15:39 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sector" id="45C98E25-211B-F3BF-7428-1349634995B1">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-25 16:56:36 UTC</createdTime>
+<generatorID>FB5FA96B-CF93-EE5D-8D0A-5E79342BA921</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<referedAttribute>9E3E608E-83E2-28C4-09E8-96A4E544DF54</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3DECAD56-B328-0AD5-70D4-CF4217F64ED2" name="NFC PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:15:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9092842-CC8C-5BB2-4673-CDE26A84AA66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CBBCACA-7805-9E3D-0340-29023E78701A" name="Evidencia">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:19:51 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evidencia" id="372FABD9-0329-210B-9CED-6B1BEE5020B4">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:20:09 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_archivo" id="2DAAFF89-A155-4052-3FB9-5F610446D269">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:20:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_archivo" id="3AF851A4-C4A5-AE9F-97A4-8AB2AF75693B">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:20:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fotografia" id="F4B07034-92DE-99BE-6D24-90E97E727D45">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:20:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hash_archivo" id="CA8BF442-215C-2812-ADB8-B58572829CEE">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:20:47 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="60DBD7EC-5DDC-2A40-0FCF-9F9A3E563F43">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:21:01 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_registro" id="6C05FDA6-ABDA-FCA2-FAE6-10E0C9216203">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:31:52 UTC</createdTime>
+<generatorID>0B5C1C69-01C7-D8E4-92CB-725FCA07D0D5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<referedAttribute>13DE4408-48B5-E920-0E2F-00DD71094443</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="645E7432-D0B5-701E-33A4-245BF6F1E180">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:31:52 UTC</createdTime>
+<generatorID>0B5C1C69-01C7-D8E4-92CB-725FCA07D0D5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<referedAttribute>5AD5866C-8261-0848-BC8A-018F7A8D27F7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6353006A-45A8-3347-F221-9A540668A145" name="Evidencia PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-09-22 15:20:15 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="3DE7DB32-53BD-0108-693B-4FE5E9C79961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>372FABD9-0329-210B-9CED-6B1BEE5020B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
