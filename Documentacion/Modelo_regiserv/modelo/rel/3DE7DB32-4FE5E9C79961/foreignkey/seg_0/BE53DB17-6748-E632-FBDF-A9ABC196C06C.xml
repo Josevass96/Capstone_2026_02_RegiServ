@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE53DB17-6748-E632-FBDF-A9ABC196C06C" containerWithKeyObject="499B4DCA-F1BE-5EC4-22C1-B4468EB375C1" localFKIndex="54F18822-242E-41A2-9F8D-8549092CCB0B" name="PISO_NIVEL_EDIFICIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>13C164E7-CCAD-CA4E-2AC0-13F02315417E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>EDIFICIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66C214BC-A118-09B4-EA20-D313C61B382C</referredTableID>
+<keyObject>D79D5A7E-27A8-AC4A-A8A6-334CFB44C121</keyObject>
+<referredKeyID>D79D5A7E-27A8-AC4A-A8A6-334CFB44C121</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_zona</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

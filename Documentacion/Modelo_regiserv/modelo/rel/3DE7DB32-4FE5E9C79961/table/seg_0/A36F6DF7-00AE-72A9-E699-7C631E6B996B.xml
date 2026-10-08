@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A36F6DF7-00AE-72A9-E699-7C631E6B996B" name="ROL">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>5B6DF3EA-E2DD-ABAF-3DA3-BA87053F8F86</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol" id="129A3267-4772-D438-CE78-B49843EF84F8">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>223C148D-BFEF-EC87-39A1-CC0F91DA927C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="72421A9A-D290-B0D7-2A72-79EF6242C93C">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>E94D7D3D-53C1-B5AF-491F-E9D4846A2B87</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="863161CF-BE05-7CEF-13E2-C7C880B2D80A">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>FAD6D44D-6153-C460-BD02-565A3519D594</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26977559-A4DD-ABB4-4E0F-B5717C4AFB70" name="ROL_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>E1280EA3-3BF9-5A0B-6414-BA89B3EF4D8F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="129A3267-4772-D438-CE78-B49843EF84F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

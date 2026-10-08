@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="499B4DCA-F1BE-5EC4-22C1-B4468EB375C1" name="PISO_NIVEL">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>89959AA8-C15A-7FD4-50E1-C58BB52C402A</generatorID>
+<notes><![CDATA[Se refiere al número del piso del edificio]]></notes>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nivel" id="877A35FF-DB7F-DBFF-A582-1E699CFAE9A5">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>AA138DD5-DFF3-8688-58BD-A16B513EF0C6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_nivel" id="03942A98-15E0-85E9-4750-FAD3BB1F1E72">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>543FC28F-E6D1-277F-C469-3C4208D3EDC7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDIFICIO_id_zona" id="DE8D2FED-BD83-F6DA-E197-3AB300E84816">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>3D443515-568E-1142-9AC5-11E676A2B78D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE53DB17-6748-E632-FBDF-A9ABC196C06C" referredColumn="65DCDA0A-0FD5-72F8-D4C6-EE0E2254A49A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4B67A3F-8774-B7FF-C3BB-C6E7AE3EF8A7" name="PISO_NIVEL_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>62CA8DC5-9B76-9A73-0CAA-5983E62A6C57</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="877A35FF-DB7F-DBFF-A582-1E699CFAE9A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54F18822-242E-41A2-9F8D-8549092CCB0B" name="PISO_NIVEL_EDIFICIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>13C164E7-CCAD-CA4E-2AC0-13F02315417E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE8D2FED-BD83-F6DA-E197-3AB300E84816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

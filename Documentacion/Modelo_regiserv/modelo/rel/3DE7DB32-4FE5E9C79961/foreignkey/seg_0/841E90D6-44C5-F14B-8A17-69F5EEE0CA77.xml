@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="841E90D6-44C5-F14B-8A17-69F5EEE0CA77" containerWithKeyObject="80DAFCC6-D7EA-126C-104A-594269DA54C3" localFKIndex="193F085D-6E1D-BF1A-751A-0FF24DF4DCB4" name="ESPACIO_PISO_NIVEL_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>69FFC3CA-EBF5-0DB1-C64B-4215DDAC7A25</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PISO_NIVEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>499B4DCA-F1BE-5EC4-22C1-B4468EB375C1</referredTableID>
+<keyObject>B4B67A3F-8774-B7FF-C3BB-C6E7AE3EF8A7</keyObject>
+<referredKeyID>B4B67A3F-8774-B7FF-C3BB-C6E7AE3EF8A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nivel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

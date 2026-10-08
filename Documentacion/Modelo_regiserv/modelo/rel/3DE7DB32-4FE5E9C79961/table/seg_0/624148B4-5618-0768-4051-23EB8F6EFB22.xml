@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="624148B4-5618-0768-4051-23EB8F6EFB22" name="TIPO_OBSERVACION">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>53E6C150-F3CE-D33E-8BD7-EAEE71B2F07E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_observacion" id="7F719EDE-46AA-17A4-4E45-559F0C55902E">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>2A5F4211-6B9B-E04C-51B3-648432640DDF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="27300DAC-1DD1-6F1C-A53E-24F6D4950766">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>537F2F73-0E4A-1B67-0697-F8697CD979CB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="2B2D6B11-C71C-B042-8C2F-ACF3C17C0094">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>CC4C1F35-04EB-BCFA-93B4-08A06EA9D16F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="9F2D05A1-F6C0-BBA9-CFD8-34A4D61B208C">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>0525A436-76D2-0B2F-A740-08BBEF749D67</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01B219AE-48F8-F123-FE86-371828EDC0FA" name="TIPO_OBSERVACION_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>CE0107F2-6B8E-0334-E2AE-7D37338B2357</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F719EDE-46AA-17A4-4E45-559F0C55902E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80DAFCC6-D7EA-126C-104A-594269DA54C3" name="ESPACIO">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>648B821E-2C11-F683-4C7B-D6D9CD4C6E9B</generatorID>
+<notes><![CDATA[Se refiere al espacio específico, por ejemplo la sala E202, H505. Información que obtenemos de las tablas edificio_zona, piso_nivel, tipo_espacio.]]></notes>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_espacio" id="E1A0C454-9986-2EF9-7A6D-A820F8CAF5A0">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>9E3E608E-83E2-28C4-09E8-96A4E544DF54</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_identificador" id="4B368297-4AE0-2151-0F2F-F061AE68FD99">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>581AFA07-584A-3249-2485-C9FAF2210F6F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PISO_NIVEL_id_nivel" id="3C0B851B-3225-B059-9F81-489A7903A767">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>B4C5CB98-FA03-599E-BAB5-15E998ADA258</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="841E90D6-44C5-F14B-8A17-69F5EEE0CA77" referredColumn="877A35FF-DB7F-DBFF-A582-1E699CFAE9A5"/>
+</associations>
+</Column>
+<Column name="TIPO_ESPACIO_id_tipo_espacio" id="3B16DA3D-D67A-BC60-BE50-243B5FC0A475">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>E5E3524F-2853-9B91-D917-B68C780CCC5F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="794468F5-487F-C7C4-D0FF-FCDF5FC15289" referredColumn="47E64BED-49A6-4A60-C77E-71F78816D80F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9AEED32-708D-17C5-A71A-DF40F6F6A76C" name="ESPACIO_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>839CAC17-E1A9-86E8-528F-4A131BB732D9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A0C454-9986-2EF9-7A6D-A820F8CAF5A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="193F085D-6E1D-BF1A-751A-0FF24DF4DCB4" name="ESPACIO_PISO_NIVEL_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>69FFC3CA-EBF5-0DB1-C64B-4215DDAC7A25</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C0B851B-3225-B059-9F81-489A7903A767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E8BA266-A330-5FF0-DE23-68AE067A8C5E" name="ESPACIO_TIPO_ESPACIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>71DA5EE6-F5ED-0F0E-1E05-A601433952AD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B16DA3D-D67A-BC60-BE50-243B5FC0A475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

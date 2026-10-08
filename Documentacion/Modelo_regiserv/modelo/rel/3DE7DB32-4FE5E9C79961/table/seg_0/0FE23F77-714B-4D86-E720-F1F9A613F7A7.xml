@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FE23F77-714B-4D86-E720-F1F9A613F7A7" name="ASIGNACION_TURNO">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>1703AAE4-2983-48D0-5DA7-4D875072C979</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asig_tarea" id="BBB6BAAF-CD2D-21F6-4366-11F3133AD2BC">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>52771C42-540A-A7B0-1B33-A1EDC91E425B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="2BB10F40-E61D-E72B-0C15-508DC251DE05">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>01C9130A-54D7-227C-CF82-551CA506FF9D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_turno" id="1B722D25-D6A6-F0E5-1C1F-8ED47AD97C6A">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>6F93EF7D-DEEA-7578-1D1D-A97F5DD76DEF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="73AF3150-019F-EB32-89F1-41EC1DF4BD7F">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>1B40720E-E677-FE90-7CE4-1A77E7C36D31</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0EC827C-3501-E319-6176-954FD1ED1298" referredColumn="6577129B-55BE-4BB3-D119-BDADDAC9F7B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="572CA3FC-5177-1A38-A6AC-0C7AFCFB7D03" name="ASIGNACION_TURNO_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>9E5D4DC9-21A9-0325-DFA0-7E26E063C1A9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBB6BAAF-CD2D-21F6-4366-11F3133AD2BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6866C80A-5B2E-6881-D10A-11332EC76093" name="ASIGNACION_TURNO__IDX">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F864D2A9-9AD8-332C-4915-14FFB685710C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="73AF3150-019F-EB32-89F1-41EC1DF4BD7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8B000A-03BA-2631-99EF-49A712FDF691" name="ASIGNACION_TURNO_USUARIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-07 18:29:26 UTC</createdTime>
+<generatorID>F864D2A9-9AD8-332C-4915-14FFB685710C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73AF3150-019F-EB32-89F1-41EC1DF4BD7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
