@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1F727FBD-4F8C-9B0D-A13F-2352E9255CC3" mainViewID="77AD776D-486A-D1B5-29FE-04C875724905">
-<createdBy>Baltz</createdBy>
-<createdTime>2026-09-22 15:10:47 UTC</createdTime>
-<ownerDesignName>regiserv_modelo_entidadrelacion</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
