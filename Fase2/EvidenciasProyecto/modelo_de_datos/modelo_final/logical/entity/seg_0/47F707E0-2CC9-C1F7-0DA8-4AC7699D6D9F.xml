@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47F707E0-2CC9-C1F7-0DA8-4AC7699D6D9F" name="TIPO_ESPACIO">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:47:39 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_espacio" id="62632E4B-A2CC-01F8-DCA6-164CE9AE4338">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:47:45 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E608986F-FACE-E1B9-764D-8B6C93B62E52">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:47:55 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4BE4AD0-E6D2-C071-E533-AE2B6AD93E55" name="TIPO_ESPACIO PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:47:54 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62632E4B-A2CC-01F8-DCA6-164CE9AE4338</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

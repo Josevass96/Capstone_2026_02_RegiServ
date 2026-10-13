@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F061987C-581C-16B8-ED18-BA4357C40834" name="SEDE">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>A4312D22-34E0-5471-BE58-B025D170A38D</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sede" id="259B1147-ED98-6251-C178-BF283BE49BD7">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>F80A3899-F0F6-E227-1424-E0B95564C995</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_sede" id="B69700A5-D2F3-E9DC-019E-54B47044178A">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>AB0B1E3E-D521-FD79-BCC7-0D89692B9264</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="D77669CA-B636-7719-BAC3-66E0813BF698">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>1E7BDF45-0E52-0099-834B-6A768F913FC1</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B36B6D1-6B85-ADE0-9A8F-208B92D3F2F7" name="SEDE_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>444F8BD4-79A9-230C-8C0E-7ABBB3D3D1AB</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259B1147-ED98-6251-C178-BF283BE49BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

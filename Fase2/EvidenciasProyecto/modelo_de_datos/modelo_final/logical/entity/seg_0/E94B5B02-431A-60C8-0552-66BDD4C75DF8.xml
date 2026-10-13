@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E94B5B02-431A-60C8-0552-66BDD4C75DF8" name="NFC">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:51:35 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nfc" id="2E76AFD2-F201-B763-2422-7B5196A07ECF">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:51:39 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uid_nfc" id="3260F1F0-9783-08F1-E460-198FD3F8DDF5">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:51:44 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_instalacion" id="73E41F35-3F1A-1668-7556-4060848D0C8C">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:51:58 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="2D71162A-D4C0-839B-8F4F-B0682027AA53">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:52:06 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_espacio" id="F5C417DA-4AF9-D635-8A27-8DAA0FC7EBB8">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:54:09 UTC</createdTime>
+<generatorID>0F48AF62-8E79-E24B-5B3C-065EB1BE36E4</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<referedAttribute>D0167430-F432-0787-F6F8-BBF4A2D2EAB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5A2CADC-D26A-9430-BD8F-A1D61CA92681" name="NFC PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-12 23:51:43 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E76AFD2-F201-B763-2422-7B5196A07ECF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

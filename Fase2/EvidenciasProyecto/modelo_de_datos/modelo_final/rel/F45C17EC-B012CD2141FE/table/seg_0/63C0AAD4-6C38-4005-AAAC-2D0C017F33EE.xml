@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63C0AAD4-6C38-4005-AAAC-2D0C017F33EE" name="REGISTRO_ASEO">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>E57A20AB-9711-BFF9-AB3A-3D0AF2B856AE</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_registro_aseo" id="625A0D3D-B64C-7647-82FD-27F5BA937C67">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>C569CE87-086F-7368-5746-1885F521CA3C</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_inicio" id="774BCA2B-D9E1-D123-63E2-8656FB2C8088">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>82EBE352-1857-4695-7596-481F58A9D5C3</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_fin" id="228652D2-1051-3FAF-38F5-43CB1B7D65F0">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>729FEB21-3CFD-DA6F-BFAA-22A647BFE78F</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacion_general" id="C61C6898-598A-7975-0291-EF6A1A810341">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>0963D19D-6740-FEDA-E90A-A6746E976354</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitud" id="7457C902-A3CC-ADDB-1484-6E55EB58C601">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>1ED40736-B914-D407-809F-D65BA2E7656B</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud" id="D6EBA8FD-E975-6886-024A-AE7DBA6A8FC4">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>19BC85EA-8FBE-EBFB-5B24-F26D4101FEDE</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_sincronizacion" id="EE30E459-E385-38F5-EEE8-7536C7E899B9">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>D85696B8-A40A-7A53-94CB-0124F800FB33</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_sincronizacion" id="5A5D0E8B-7BF3-D642-B873-0E62BD229B8A">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>6D7D72C3-BF40-89D4-303E-92CC09F62CD8</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="ACAA1F30-5B0F-4FD1-021E-44AECE5020C0">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>DD1521D6-0091-FA78-B5C0-6D3BC400ED3A</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB4E4C71-8301-8891-6D5F-F708296BF2BB" referredColumn="E3307096-1D98-BCF4-56FE-8FC7EEEF9A97"/>
+</associations>
+</Column>
+<Column name="ESPACIO_id_espacio" id="B424CFB9-107C-C366-B842-885E031B9117">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>E361F7EF-796C-0187-B1BB-229091F38C93</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89FE2410-F953-D804-A581-05B5BE833D8F" referredColumn="7E6C5811-29BD-D5C4-FC1E-B34B7A657A08"/>
+</associations>
+</Column>
+<Column name="ESTADO_ASEO_id_estado_aseo" id="5851715D-7CEF-42DE-F137-5AA887347EBF">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>AE816009-25FD-FE9F-0800-4F1FC9CE4A02</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A25D40D0-DE2B-DA8A-68EE-CBEB1F97B599" referredColumn="02BE99EF-E3DA-BB35-4798-EF1A106A9891"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78FE0F72-6C7C-EA2E-5293-7DB6CD5AE351" name="REGISTRO_ASEO_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>77AFCE1F-5435-8572-A51A-FEB18233BF34</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="625A0D3D-B64C-7647-82FD-27F5BA937C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FB4355B-2032-AB12-A680-EDE99FDA701E" name="REGISTRO_ASEO_USUARIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>13C92841-83BB-3BE7-ADBE-09714AABAF96</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACAA1F30-5B0F-4FD1-021E-44AECE5020C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F0FA86A-94E8-4CC6-13D0-91E84FCC0A42" name="REGISTRO_ASEO_ESTADO_ASEO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>5B93F716-1927-50CD-7F12-E5E80B492516</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5851715D-7CEF-42DE-F137-5AA887347EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F552031E-655E-76AC-965B-84807C66E840" name="REGISTRO_ASEO_ESPACIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>5ECFB565-3CDA-BEDA-DDA3-6E45563D5640</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B424CFB9-107C-C366-B842-885E031B9117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

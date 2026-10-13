@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF9FD59C-1B4C-73FA-29B2-B9123AE51F5C" containerWithKeyObject="9BA0EE61-1BCF-B283-A997-2EC47AF14802" localFKIndex="9B01A520-1B63-496E-DC49-D373980CDCAC" name="OBSERVACION_REGISTRO_ASEO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>71888249-AE8F-9E9E-57FE-6F5407787341</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<referredTableLongName>REGISTRO_ASEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63C0AAD4-6C38-4005-AAAC-2D0C017F33EE</referredTableID>
+<keyObject>78FE0F72-6C7C-EA2E-5293-7DB6CD5AE351</keyObject>
+<referredKeyID>78FE0F72-6C7C-EA2E-5293-7DB6CD5AE351</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_registro_aseo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3EEC104-0038-CEBE-7F4C-03D0F6BA9F4E" name="NFC">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>E94B5B02-431A-60C8-0552-66BDD4C75DF8</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nfc" id="E2DC2EB7-6655-52A5-F13C-C930D59C12F8">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>2E76AFD2-F201-B763-2422-7B5196A07ECF</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uid_nfc" id="D6AD6B12-B965-1D5D-2D39-89C114DA3CDC">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>3260F1F0-9783-08F1-E460-198FD3F8DDF5</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_instalacion" id="1F040E94-F612-466B-0567-CEB95197A0FA">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>73E41F35-3F1A-1668-7556-4060848D0C8C</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="4D4872BC-9EA3-3EC2-48F3-8C04FFC31B13">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>2D71162A-D4C0-839B-8F4F-B0682027AA53</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPACIO_id_espacio" id="5C818A2C-5FE5-1492-DF07-4E4E0760E8E7">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>F5C417DA-4AF9-D635-8A27-8DAA0FC7EBB8</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EA02B81-8167-4943-3A98-A3BFC701E8D1" referredColumn="7E6C5811-29BD-D5C4-FC1E-B34B7A657A08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0E12CD4-171E-2CFF-40B6-7C396B2E8F4A" name="NFC_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>D5A2CADC-D26A-9430-BD8F-A1D61CA92681</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2DC2EB7-6655-52A5-F13C-C930D59C12F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B494484-DC5B-DA7D-2A5B-98EC639EB00B" name="NFC_ESPACIO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>0F48AF62-8E79-E24B-5B3C-065EB1BE36E4</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C818A2C-5FE5-1492-DF07-4E4E0760E8E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

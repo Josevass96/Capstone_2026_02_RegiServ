@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BA0EE61-1BCF-B283-A997-2EC47AF14802" name="OBSERVACION">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>0E56B53D-A6ED-9617-0878-4C4A7E099778</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_observacion" id="0EE1B14E-38FA-6C2B-F26D-51FF3547CB2F">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>D413FB51-2314-124D-31DE-E57A15C88602</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prioridad" id="7E30B1A9-3BD5-5FE0-AA87-B6827DCC309A">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>7CDFF0FB-B55F-51E3-C8B7-1B1F71267ABF</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="0C24A526-B7CC-7377-A96D-F09E63B2FF03">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>610F8F60-603C-F33B-45BF-BE7D0B5E3129</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="FA2C0A97-E935-E0FF-30F1-E881ABE532B6">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>C20EBB94-E4C9-0228-E5DF-A5F1812D4D1E</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTRO_ASEO_id_registro_aseo" id="463D01EA-9B78-8429-1E0E-85D74E6BF9DB">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>917D57A4-713A-8540-746D-88FA4E80DCC7</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF9FD59C-1B4C-73FA-29B2-B9123AE51F5C" referredColumn="625A0D3D-B64C-7647-82FD-27F5BA937C67"/>
+</associations>
+</Column>
+<Column name="TIPO_OBSERVACION_id_tipo_observacion" id="7C0EE596-FD19-E8E7-A3FB-85487957154C">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>06ADB4D6-5280-EDEC-7981-6F61D0873EC1</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FA5443F-CA37-A537-E80A-F47F5965E506" referredColumn="D7D8B0DA-992C-9D3A-9DE1-36741DA129CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9C2385C-9F93-E70D-10C7-EB7B19E5BD37" name="OBSERVACION_PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>27AFB063-EF53-EAFE-7AFE-EB06382C76E6</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE1B14E-38FA-6C2B-F26D-51FF3547CB2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B01A520-1B63-496E-DC49-D373980CDCAC" name="OBSERVACION_REGISTRO_ASEO_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>71888249-AE8F-9E9E-57FE-6F5407787341</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463D01EA-9B78-8429-1E0E-85D74E6BF9DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="348EDB18-798C-AFD9-4BD6-54CC78BA67EC" name="OBSERVACION_TIPO_OBSERVACION_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>1AE13411-2A5F-7492-D1C0-D057CB6E380B</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0EE596-FD19-E8E7-A3FB-85487957154C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

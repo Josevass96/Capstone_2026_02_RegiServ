@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C60FD8F1-0547-E5DF-39FC-B229BB7BD1CB" name="EVIDENCIA">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:06:37 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evidencia" id="1AC04276-DD20-E455-002B-E2A02A61E1BE">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:06:42 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_archivo" id="C0CB29E5-A113-EC76-200E-4F2114D77FD8">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:07:50 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_archivo" id="5CE0930D-DF85-B038-4E87-F3366E26C3D7">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:09:00 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fotografia" id="1049B40D-FBF8-FF4A-5B89-36E0DFF3254A">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:09:19 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B6CE3F36-A151-087A-1239-F69F0BA67691">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:10:08 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_registro_aseo" id="3BD15FD8-7617-00F9-8F21-8A436F8A27AC">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:13:03 UTC</createdTime>
+<generatorID>0D9A4004-4305-E5D4-66EC-F8E93EE8DD7D</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<referedAttribute>C569CE87-086F-7368-5746-1885F521CA3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="668F752B-6AB6-DDA4-8C43-E28BA84883A4" name="EVIDENCIA PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:07:49 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AC04276-DD20-E455-002B-E2A02A61E1BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

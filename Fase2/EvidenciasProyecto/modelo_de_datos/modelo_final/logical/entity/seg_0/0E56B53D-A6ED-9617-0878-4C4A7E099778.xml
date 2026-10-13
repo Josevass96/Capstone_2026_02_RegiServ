@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E56B53D-A6ED-9617-0878-4C4A7E099778" name="OBSERVACION">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:17:19 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_observacion" id="D413FB51-2314-124D-31DE-E57A15C88602">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:17:27 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prioridad" id="7CDFF0FB-B55F-51E3-C8B7-1B1F71267ABF">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:17:41 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="610F8F60-603C-F33B-45BF-BE7D0B5E3129">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:17:49 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="C20EBB94-E4C9-0228-E5DF-A5F1812D4D1E">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:17:54 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_registro_aseo" id="917D57A4-713A-8540-746D-88FA4E80DCC7">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:19:05 UTC</createdTime>
+<generatorID>71888249-AE8F-9E9E-57FE-6F5407787341</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<referedAttribute>C569CE87-086F-7368-5746-1885F521CA3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_observacion" id="06ADB4D6-5280-EDEC-7981-6F61D0873EC1">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:20:49 UTC</createdTime>
+<generatorID>1AE13411-2A5F-7492-D1C0-D057CB6E380B</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<referedAttribute>93BA7A61-5068-30ED-8E5E-7D638ECC495A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27AFB063-EF53-EAFE-7AFE-EB06382C76E6" name="OBSERVACION PK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:17:40 UTC</createdTime>
+<ownerDesignName>modelo_final</ownerDesignName>
+<engineerTo>
+<item key="F45C17EC-4D5D-D439-7506-B012CD2141FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D413FB51-2314-124D-31DE-E57A15C88602</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FA5443F-CA37-A537-E80A-F47F5965E506" containerWithKeyObject="9BA0EE61-1BCF-B283-A997-2EC47AF14802" localFKIndex="348EDB18-798C-AFD9-4BD6-54CC78BA67EC" name="OBSERVACION_TIPO_OBSERVACION_FK">
+<createdBy>Baltz</createdBy>
+<createdTime>2026-10-13 00:26:42 UTC</createdTime>
+<generatorID>1AE13411-2A5F-7492-D1C0-D057CB6E380B</generatorID>
+<ownerDesignName>modelo_final</ownerDesignName>
+<referredTableLongName>TIPO_OBSERVACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>981CAC24-E2AE-FA15-204C-54AD066F7276</referredTableID>
+<keyObject>6E4A27E5-FA98-B1C3-7681-873937D8B364</keyObject>
+<referredKeyID>6E4A27E5-FA98-B1C3-7681-873937D8B364</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_observacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
