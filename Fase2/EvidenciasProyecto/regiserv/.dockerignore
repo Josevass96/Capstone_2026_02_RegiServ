@@ -1,0 +1,9 @@
+@"
+.dart_tool/
+build/
+.git/
+.idea/
+.vscode/
+.flutter-plugins
+.flutter-plugins-dependencies
+"@ | Set-Content -Encoding utf8 .dockerignore

@@ -1,0 +1,10 @@
+
+services:
+  regiserv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: regiserv_web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
